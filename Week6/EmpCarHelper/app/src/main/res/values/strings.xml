@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EmpCar Helper</string>
+    <string name="title_activity_order_det">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

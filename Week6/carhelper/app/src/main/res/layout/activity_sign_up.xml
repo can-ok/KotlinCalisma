@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignUpActivity">
+
+    <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter  mobile:"
+            android:id="@+id/editText_SignMobile"
+
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/user"
+            android:inputType="number"
+    />
+    <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password:"
+            android:id="@+id/editText_SignPassword"
+
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/pasword"
+            android:inputType="text"
+    />
+    <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cofirm Password:"
+            android:id="@+id/editText_SignConfirmPassword"
+
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/pasword"
+            android:inputType="text"
+    />
+
+    <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name:"
+            android:id="@+id/editText_SignName"
+
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/pasword"
+            android:inputType="text"
+    />
+    <Button
+            android:text="Sign UP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+
+
+</LinearLayout>

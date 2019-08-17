@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+              android:background="@drawable/deneme"
+
+android:orientation="vertical"
+android:layout_marginTop="15dp"
+>
+
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView_ordernumber"
+    android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#ff0000"
+    />
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView_orderDate"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#ff0000"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView_serviceName"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#ff0000"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView_orderStatus"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#ff0000"/>
+</LinearLayout>

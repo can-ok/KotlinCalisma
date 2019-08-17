@@ -1,0 +1,28 @@
+<name> hussien </name>
+<age> 27 </age>
+<Langauges>
+<item>Android </item>
+<item>ios</item>
+<item>C# </item>
+<item>JAVA</item>
+</Languages>
+
+<jobs>
+
+<item>
+	<title>nYC<title>
+	<place>Developer</place>
+
+</item>
+
+<item>
+	<title>CA<title>
+	<place>Tester</place>
+
+</item>
+<item>
+	<title>FA<title>
+	<place>Manager</place>
+
+</item>
+</jobs>
